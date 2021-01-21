@@ -1,0 +1,15 @@
+bugs:
+	idbugs int auto_increment primary key
+	bugname string
+	bugdesc string
+	bugrepro string
+	bugnotes string
+	bugstatus int
+	bugseverity int
+	bugsubdate datetime
+
+users:
+	idusers int auto_increment primary key
+	username string
+	password string
+	role int
